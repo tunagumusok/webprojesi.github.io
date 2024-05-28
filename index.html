@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Proje</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Parisienne&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">  
+                <h2><a href="#">Tuna Gümüşok</a></h2>
+            </div>
+            <ul class="nav_links">
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#ilgialanlarim">İlgi Alanlarım</a></li>
+                <li><a href="#baglantilar">Bağlantılar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Anasayfa -->
+    <section id="anasayfa">
+        <div class="inner_anasayfa">
+            <h1>SAYFAMA HOŞ GELDİNİZ</h1>
+            <img id="profile-img" src="https://media.istockphoto.com/id/485947800/tr/foto%C4%9Fraf/clock-tower-izmir.jpg?s=612x612&w=0&k=20&c=CqaqzJpDMSkoNrghyCuXYKvtPSiTMPuMVFXGXhFP4oI=" alt="İzmir">
+            <p id="image-description">Sevdiğim Şehirler</p>
+        </div>
+    </section>
+
+    <!-- HAKKIMDA -->
+    <section id="hakkimda">
+        <div class="section_title">
+            <h2>HAKKIMDA</h2>
+        </div>
+        <div class="innerhakkimda">
+            <img src="tg.jpg" alt="Profil Resmi" id="profile-img">
+            <div class="innerhakkimda_child">
+                <h3>EĞİTİM</h3>
+                <p>Ankara Medipol Üniversitesinde Yönetim Bilişim Sistemleri Programı 3.sınıf öğrencisiyim.</p>
+            </div>
+            <div class="innerhakkimda_child">
+                <h3>İŞ</h3>
+                <p>Müzik altyapısı üretiyorum aynı zamanda mentorluğunu veriyorum.</p>
+            </div>
+            <div class="innerhakkimda_child">
+                <h3>GELİŞTİRME</h3>
+                <p>Yazılım alanındaki projelerimi gerçekleştirebilmek için her gün kendimi geliştirmeye çalışıyorum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- İlgi Alanlarım -->
+    <section id="ilgialanlarim"> 
+        <div class="section_title">
+            <h2>İLGİ ALANLARIM</h2>
+        </div>
+        <div class="inner_ilgi">
+            <div class="child_ilgi">
+                <div>
+                    <img src="beşiktaş.jpg" alt="">
+                    <h3>BEŞİKTAŞ</h3>
+                </div>
+            </div>
+            <div class="child_ilgi">
+                <div>
+                    <img src="kamp.jpg" alt="">
+                    <h3>KAMP</h3>
+                </div>
+            </div>
+            <div class="child_ilgi">
+                <div>
+                    <img src="trabzon.jpg" alt="">
+                    <h3>BALIKÇILIK</h3>
+                </div>
+            </div>
+            <div class="child_ilgi">
+                <div>
+                    <img src="daftpunk.jpg" alt="">
+                    <h3>MÜZİK</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bağlantılar -->
+    <section id="baglantilar">
+        <div class="section_title">
+            <h2>BAĞLANTILAR</h2>
+        </div>
+        <div class="social_links" style="display: flex; justify-content: space-around; align-items: center;">
+            <div style="text-align: center;">
+                <a href="https://instagram.com/tunag23" target="_blank" style="color: rgb(151, 0, 71);">
+                    <i class="fab fa-instagram" style="font-size:64px;"></i>
+                </a>
+                <p style="margin-top: 5px; color: rgb(149, 198, 255);">Instagram</p>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://wa.me/905426961752" target="_blank" style="color: rgb(69, 252, 99);">
+                    <i class="fab fa-whatsapp" style="font-size:64px;"></i>
+                </a>
+                <p style="margin-top: 5px; color: rgb(149, 198, 255);">WhatsApp</p>
+            </div>
+            <div style="text-align: center;">
+                <a href="mailto:tunagumusok@gmail.com" target="_blank" style="color: rgb(190, 0, 0);">
+                    <i class="fas fa-envelope" style="font-size:64px;"></i>
+                </a>
+                <p style="margin-top: 5px; color: rgb(149, 198, 255);">E-posta</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="currency-rates" class="info-section">
+        <h2>Döviz Kurları</h2>
+        <div id="currency-container">
+            <!-- API'den gelen döviz kuru bilgileri burada gösterilecek -->
+        </div>
+    </section>
+
+    <footer>
+        <p>©️ Tuna Gümüşok</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
